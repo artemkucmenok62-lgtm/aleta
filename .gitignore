@@ -1,34 +1,57 @@
-# Gradle files
-.gradle/
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
 build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# 3D Files (Large)
+*.blend
+*.blend1
+*.fbx
+*.obj
+*.mtl
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Database
+*.db
+*.sqlite
+*.sqlite3
 
-# Keystore files
-*.jks
-*.keystore
+# Logs
+logs/
+*.log
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Uploads (временные файлы)
+uploads/
+temp/
